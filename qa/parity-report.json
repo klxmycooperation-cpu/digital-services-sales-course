@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "schemaVersion": 2,
+  "moduleCount": 7,
+  "stepCount": 28,
+  "comparedSections": [
+    "course",
+    "modules",
+    "steps"
+  ],
+  "siteSha256": "33854da9053d77217e53348c628f71c8c605fd633406eb2afc8a6cb8812d40b4",
+  "deckSha256": "33854da9053d77217e53348c628f71c8c605fd633406eb2afc8a6cb8812d40b4",
+  "exactFileMatch": true
+}

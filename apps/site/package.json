@@ -1,0 +1,26 @@
+{
+  "name": "@digital-sales-course/site",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract:react-bits": "node scripts/extract-react-bits.mjs --write",
+    "verify:react-bits": "node scripts/extract-react-bits.mjs --check",
+    "test": "node --test test/*.test.mjs",
+    "build": "vite build && node scripts/write-course-manifest.mjs",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@sales-course/content": "1.0.0",
+    "gsap": "3.15.0",
+    "motion": "12.42.2",
+    "ogl": "1.0.11",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.0.3",
+    "vite": "8.1.4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@sales-course/content",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.mjs",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "report": "node scripts/build-content-report.mjs"
+  }
+}

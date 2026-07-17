@@ -1,0 +1,44 @@
+[
+  {
+    "id": "M01",
+    "moduleId": "system",
+    "stepIds": ["system-value", "system-chain", "system-b2b", "system-bottleneck"],
+    "requirements": ["client-value", "action-chain", "b2b-decision", "pipeline-diagnosis"]
+  },
+  {
+    "id": "M02",
+    "moduleId": "offer",
+    "stepIds": ["offer-niche", "offer-icp", "offer-solution", "offer-proof"],
+    "requirements": ["30-day-niche", "icp-trigger", "minimal-solution", "safe-proof"]
+  },
+  {
+    "id": "M03",
+    "moduleId": "companies",
+    "stepIds": ["companies-roles", "companies-signals", "companies-region", "companies-test"],
+    "requirements": ["channel-roles", "signals-base", "regional-channel", "seven-day-test-plan"]
+  },
+  {
+    "id": "M04",
+    "moduleId": "response",
+    "stepIds": ["response-observation", "response-first", "response-format", "response-follow-up"],
+    "requirements": ["observation", "first-message", "channel-format", "follow-up-stop-execution"]
+  },
+  {
+    "id": "M05",
+    "moduleId": "diagnosis",
+    "stepIds": ["diagnosis-questions", "diagnosis-boundaries", "diagnosis-process", "diagnosis-brief"],
+    "requirements": ["six-questions", "budget-boundaries", "process-behind-feature", "decision-brief"]
+  },
+  {
+    "id": "M06",
+    "moduleId": "deal",
+    "stepIds": ["deal-proposal", "deal-pricing", "deal-packages", "deal-start"],
+    "requirements": ["proposal", "pricing-payment", "packages-objections", "contract-prepayment"]
+  },
+  {
+    "id": "M07",
+    "moduleId": "repeat",
+    "stepIds": ["repeat-handoff", "repeat-loop", "repeat-crm", "repeat-system"],
+    "requirements": ["handoff-acceptance", "case-repeat-referral", "crm-metrics-rhythm", "30-day-system"]
+  }
+]

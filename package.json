@@ -1,0 +1,22 @@
+{
+  "name": "digital-services-sales-course",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/course-content",
+    "apps/site",
+    "apps/deck"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present && node --test scripts/*.test.mjs",
+    "dev:site": "npm run dev -w @digital-sales-course/site",
+    "build:site": "npm run build -w @digital-sales-course/site",
+    "build:deck": "npm run build -w @sales-course/deck",
+    "verify": "npm run verify:artifacts",
+    "verify:parity": "node scripts/verify-content-parity.mjs",
+    "verify:deck": "node scripts/verify-deck-output.mjs",
+    "verify:artifacts": "npm run verify:parity && npm run verify:deck",
+    "package:deliverables": "node scripts/package-deliverables.mjs",
+    "build": "npm run build:site"
+  }
+}

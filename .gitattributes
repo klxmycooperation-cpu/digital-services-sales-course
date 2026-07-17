@@ -1,0 +1,3 @@
+# Vendored React Bits files are byte-locked to their approved upstream copies.
+apps/site/src/components/react-bits/** whitespace=-trailing-space,-blank-at-eof
+apps/site/fixtures/react-bits/** whitespace=-trailing-space,-blank-at-eof

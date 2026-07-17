@@ -1,0 +1,14 @@
+{
+  "name": "@sales-course/deck",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/content-adapter.test.mjs test/visual-assets.test.mjs",
+    "test:runtime": "node --test test/presentation.test.mjs",
+    "build": "node src/build-deck.mjs"
+  },
+  "dependencies": {
+    "@sales-course/content": "1.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+tmp/
+release-assets/
+apps/site/tmp/
+apps/deck/tmp/
+apps/deck/renders/
+apps/deck/rendered/
+apps/deck/montage/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example

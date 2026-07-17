@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "license": "LicenseRef-ReactBits-MIT-Plus-Commons-Clause-1.0",
+  "immutableFixtureRoot": "fixtures/react-bits",
+  "runtimeRoot": "src/components/react-bits",
+  "scrollFloatUpstream": {
+    "repository": "https://github.com/DavidHDev/react-bits",
+    "commit": "dbdaac1c"
+  },
+  "files": [
+    { "component": "ASCIIText", "path": "src/components/react-bits/ASCIIText/ASCIIText.jsx", "fixture": "fixtures/react-bits/ASCIIText/ASCIIText.jsx", "sha256": "793db58929aa2b797daccc4fda9f614f213230270ce628fcd497dc6737b365fc", "origin": "vendored-fixture" },
+    { "component": "BorderGlow", "path": "src/components/react-bits/BorderGlow/BorderGlow.css", "fixture": "fixtures/react-bits/BorderGlow/BorderGlow.css", "sha256": "129e148266e2cf0bd18aeb0143a51891cb100d2117af6b86ef6f912e4f9a730a", "origin": "vendored-fixture" },
+    { "component": "BorderGlow", "path": "src/components/react-bits/BorderGlow/BorderGlow.jsx", "fixture": "fixtures/react-bits/BorderGlow/BorderGlow.jsx", "sha256": "a962563b63c329dcc82df3cbeca4840e8abeceb86e496071cb5f5dc278084e6c", "origin": "vendored-fixture" },
+    { "component": "DecryptedText", "path": "src/components/react-bits/DecryptedText/DecryptedText.jsx", "fixture": "fixtures/react-bits/DecryptedText/DecryptedText.jsx", "sha256": "7993f5ae57630eb566c26305574b4accc4d739910f76e5e5f4fc878550f12646", "origin": "vendored-fixture" },
+    { "component": "FuzzyText", "path": "src/components/react-bits/FuzzyText/FuzzyText.jsx", "fixture": "fixtures/react-bits/FuzzyText/FuzzyText.jsx", "sha256": "2d440697b8348dbe5f2428392aba5dfd182693760463030cf992239412932591", "origin": "vendored-fixture" },
+    { "component": "Galaxy", "path": "src/components/react-bits/Galaxy/Galaxy.css", "fixture": "fixtures/react-bits/Galaxy/Galaxy.css", "sha256": "33f3cf3848d440acf6ca85898e66f975582da3fd1070931316784d873176ca35", "origin": "vendored-fixture" },
+    { "component": "Galaxy", "path": "src/components/react-bits/Galaxy/Galaxy.jsx", "fixture": "fixtures/react-bits/Galaxy/Galaxy.jsx", "sha256": "2b33cb8c7073fcb1c09986eb20323e3e4ce6937988e73989af7a33ec61a51f39", "origin": "vendored-fixture" },
+    { "component": "GhostCursor", "path": "src/components/react-bits/GhostCursor/GhostCursor.css", "fixture": "fixtures/react-bits/GhostCursor/GhostCursor.css", "sha256": "231bd48112987dce58199619424afe821864fc6340368ed5821707ed4c4f788c", "origin": "vendored-fixture" },
+    { "component": "GhostCursor", "path": "src/components/react-bits/GhostCursor/GhostCursor.jsx", "fixture": "fixtures/react-bits/GhostCursor/GhostCursor.jsx", "sha256": "bd1ce61f5bcf286291252e91808d99cca265739c9c26160afada11742ed9e0d1", "origin": "vendored-fixture" },
+    { "component": "LaserFlow", "path": "src/components/react-bits/LaserFlow/LaserFlow.css", "fixture": "fixtures/react-bits/LaserFlow/LaserFlow.css", "sha256": "1c88dfc96ae359d2be420b620ba7d9597c4e728819843369536c97abfa35e88b", "origin": "vendored-fixture" },
+    { "component": "LaserFlow", "path": "src/components/react-bits/LaserFlow/LaserFlow.jsx", "fixture": "fixtures/react-bits/LaserFlow/LaserFlow.jsx", "sha256": "fbed79c704e54fcac86a7db3877c1791b0c3c4e11b9c2b18b775dfbb2a306adf", "origin": "vendored-fixture" },
+    { "component": "LineSidebar", "path": "src/components/react-bits/LineSidebar/LineSidebar.css", "fixture": "fixtures/react-bits/LineSidebar/LineSidebar.css", "sha256": "a828f4a8b1427490e7b684c904bae09de14010460940e444d95a681db6f7064c", "origin": "vendored-fixture" },
+    { "component": "LineSidebar", "path": "src/components/react-bits/LineSidebar/LineSidebar.jsx", "fixture": "fixtures/react-bits/LineSidebar/LineSidebar.jsx", "sha256": "f1ec8a4fdb5abaa5655c689e0486e47cd0042f10e4b04b2d552a5d6f2b71de06", "origin": "vendored-fixture" },
+    { "component": "OptionWheel", "path": "src/components/react-bits/OptionWheel/OptionWheel.css", "fixture": "fixtures/react-bits/OptionWheel/OptionWheel.css", "sha256": "6c5c93d30bdc2dbb13dffc2e36fb5f511e30ae50fb714e7c18bcd7d866196638", "origin": "vendored-fixture" },
+    { "component": "OptionWheel", "path": "src/components/react-bits/OptionWheel/OptionWheel.jsx", "fixture": "fixtures/react-bits/OptionWheel/OptionWheel.jsx", "sha256": "9ac8a90cd89401352c013d83f362afe669ab35726d8e286bf14cbff018b773c3", "origin": "vendored-fixture" },
+    { "component": "ScrollFloat", "path": "src/components/react-bits/ScrollFloat/ScrollFloat.css", "fixture": "fixtures/react-bits/ScrollFloat/ScrollFloat.css", "sha256": "5e2ee6e4f242c37292a5062101e6cf1cd823af71dd99cb7dc1b789a6326981a9", "origin": "user-inline-official-dbdaac1c" },
+    { "component": "ScrollFloat", "path": "src/components/react-bits/ScrollFloat/ScrollFloat.jsx", "fixture": "fixtures/react-bits/ScrollFloat/ScrollFloat.jsx", "sha256": "03bb1dad7ae744f63ae0d234f1670635679d99c52b3c21d0a5794886eb8f3a7b", "origin": "user-inline-official-dbdaac1c" },
+    { "component": "SplashCursor", "path": "src/components/react-bits/SplashCursor/SplashCursor.jsx", "fixture": "fixtures/react-bits/SplashCursor/SplashCursor.jsx", "sha256": "51f3332d0c6eb820d0397919221212a8ac7719676eb5915430b5d388cf25933a", "origin": "vendored-fixture" },
+    { "component": "SpotlightCard", "path": "src/components/react-bits/SpotlightCard/SpotlightCard.css", "fixture": "fixtures/react-bits/SpotlightCard/SpotlightCard.css", "sha256": "45ec601ffdb8cb13e99053d4375b88289c9bec17eeefb767fe536ded0c926cbe", "origin": "user-inline-exact" },
+    { "component": "SpotlightCard", "path": "src/components/react-bits/SpotlightCard/SpotlightCard.jsx", "fixture": "fixtures/react-bits/SpotlightCard/SpotlightCard.jsx", "sha256": "28d333d8efbc1bfbb748ea54cfd5981eb9c9b00600e8f42c177a8fc07009e25d", "origin": "user-inline-exact" },
+    { "component": "Strands", "path": "src/components/react-bits/Strands/Strands.css", "fixture": "fixtures/react-bits/Strands/Strands.css", "sha256": "4a5e5e140a8258cb6a029c5c11304bcb48500976f8759b78589e696f8ab29caf", "origin": "vendored-fixture" },
+    { "component": "Strands", "path": "src/components/react-bits/Strands/Strands.jsx", "fixture": "fixtures/react-bits/Strands/Strands.jsx", "sha256": "159f3b047153e90a0d9c78b3ce2efddc6f0dcd4735b882b4d23ba7f4a8e11965", "origin": "vendored-fixture" },
+    { "component": "TrueFocus", "path": "src/components/react-bits/TrueFocus/TrueFocus.css", "fixture": "fixtures/react-bits/TrueFocus/TrueFocus.css", "sha256": "cde4fdefc1a0b8d74cd67993318b27c1dbbe6f799abd4bfaef7c2f237bbeb5ea", "origin": "vendored-fixture" },
+    { "component": "TrueFocus", "path": "src/components/react-bits/TrueFocus/TrueFocus.jsx", "fixture": "fixtures/react-bits/TrueFocus/TrueFocus.jsx", "sha256": "1fa3d734fa7046de89c69ba75cd4f47cfda5f3532aa73acd3eccbf025da3d833", "origin": "vendored-fixture" }
+  ]
+}
