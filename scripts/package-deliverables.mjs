@@ -117,7 +117,11 @@ async function buildStagedPackage({ projectRoot, stagingRoot, parity, deck }) {
   await copyFile(resolve(deckRoot, 'deck-contact-sheet.png'), resolve(stagedPreviews, 'deck-contact-sheet.png'));
   await copyFile(resolve(deckRoot, 'deck-montage.webp'), resolve(stagedPreviews, 'deck-montage.webp'));
 
-  await execFileAsync('/usr/bin/ditto', ['-c', '-k', '--keepParent', stagedSite, stagedZip]);
+  await execFileAsync(
+    '/usr/bin/zip',
+    ['-r', '-X', stagedZip, basename(stagedSite)],
+    { cwd: stagingRoot },
+  );
   await writeFile(resolve(stagingRoot, 'README.md'), finalReadme(), 'utf8');
   await writeFile(stagedQa, finalQaReport(parity, deck), 'utf8');
 
