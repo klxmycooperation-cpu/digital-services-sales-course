@@ -28,7 +28,7 @@ Production build:
 npm run build:site
 ```
 
-Готовый переносимый сайт и PPTX приложены к GitHub Release `v1.0.0`.
+Готовый переносимый сайт и PPTX приложены к [последнему GitHub Release](https://github.com/klxmycooperation-cpu/digital-services-sales-course/releases/latest).
 
 ## Проверки
 
@@ -51,7 +51,7 @@ npm run build:site
 
 ## Презентация
 
-Исходный генератор находится в `apps/deck/src/`. Он использует `@oai/artifact-tool` из среды Codex. Если этой среды нет, редактируйте готовый PPTX из GitHub Release: все элементы презентации являются нативными редактируемыми фигурами и текстовыми блоками.
+Исходный генератор находится в `apps/deck/src/`. Он использует `@oai/artifact-tool` из среды Codex. Если этой среды нет, редактируйте готовый PPTX из последнего GitHub Release: все элементы презентации являются нативными редактируемыми фигурами и текстовыми блоками.
 
 Проверка генератора внутри Codex-среды:
 
